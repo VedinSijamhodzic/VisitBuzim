@@ -1,0 +1,407 @@
+* {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 15%;
+  float: left;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 50px;
+  background-color: rgb(8, 146, 3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.grb {
+  width: 75px;
+  height: 70.875px;
+}
+.logo {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.navbar a {
+  position: relative;
+  font-size: 22px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: .3s;
+}
+.navbar a:hover::before {
+ width: 100%;
+}
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+
+.title {
+  font-family: Bona Nova SC;
+  display: block;
+  color: gold;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 98.47px;
+  margin-bottom: 20px;
+  text-shadow:
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000;
+}
+
+.txt {
+  display: inline-block;
+  font-size: 24px;
+  margin-left: 10px;
+  margin-right: 6%;
+  width: 100%;
+  height: auto;
+  border-style: dashed;
+  border-color: red;
+}
+
+.opis {
+  margin-top: 270px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.text {
+  font-size: 20px;
+  display: block;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.staradzamija1 {
+  display: block;
+  width: 60%;
+  height: 60vh;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  background-image: url(VisitBuzimSlike/Slike/Ready/StaraDrvenaDzamija/staradrvenadzamija1.jpeg);
+  background-size: 100%;
+}
+.staradzamija2 {
+  display: inline-block;
+  width: 30%;
+  height: 80vh;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  vertical-align: top;
+  background-image: url(VisitBuzimSlike/Slike/Ready/StaraDrvenaDzamija/staradrvenadzamija2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.staradzamija3 {
+  display: inline-block;
+  width: 30%;
+  height: 80vh;
+  vertical-align: top;
+  background-image: url(VisitBuzimSlike/Slike/Ready/StaraDrvenaDzamija/staradrvenadzamija3.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.staradzamija4 {
+  display: inline-block;
+  width: 30%;
+  height: 80vh;
+  vertical-align: top;
+  background-image: url(VisitBuzimSlike/Slike/Ready/StaraDrvenaDzamija/staradrvenadzamija4.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.staradzamija5 {
+  display: block;
+  width: 60%;
+  height: 60vh;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  background-image: url(VisitBuzimSlike/Slike/Ready/StaraDrvenaDzamija/staradrvenadzamija5.jpeg);
+  background-size: 100%;
+}
+.staradzamija6 {
+  display: block;
+  width: 60%;
+  height: 60vh;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  background-image: url(VisitBuzimSlike/Slike/Ready/StaraDrvenaDzamija/staradrvenadzamija6.jpeg);
+  background-size: 100%;
+}
+
+.starigrad1 {
+  display: block;
+  width: 60%;
+  height: 60vh;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  background-image: url(VisitBuzimSlike/Slike/Ready/StariGrad/starigrad1.jpeg);
+  background-size: 100%;
+}
+.starigrad2 {
+  display: inline-block;
+  width: 45%;
+  height: 60vh;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  vertical-align: top;
+  background-image: url(VisitBuzimSlike/Slike/Ready/StariGrad/starigrad2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.starigrad3 {
+  display: inline-block;
+  width: 45%;
+  height: 60vh;
+  vertical-align: top;
+  background-image: url(VisitBuzimSlike/Slike/Ready/StariGrad/starigrad3.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.starigrad4 {
+  display: block;
+  width: 60%;
+  height: 60vh;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  background-image: url(VisitBuzimSlike/Slike/Ready/StariGrad/starigrad4.jpeg);
+  background-size: 100%;
+}
+.starigrad5 {
+  display: block;
+  width: 60%;
+  height: 60vh;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  background-image: url(VisitBuzimSlike/Slike/Ready/StariGrad/starigrad5.jpeg);
+  background-size: 100%;
+  background-position: center;
+}
+.starigrad6 {
+  display: block;
+  width: 60%;
+  height: 60vh;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  background-image: url(VisitBuzimSlike/Slike/Ready/StariGrad/starigrad6.jpeg);
+  background-size: 100%;
+}
+
+.lovac1 {
+  display: block;
+  width: 60%;
+  height: 60vh;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  background-image: url(VisitBuzimSlike/Slike/Ready/ULDLovac/uld1.jpeg);
+  background-size: 100%;
+  background-position: center;
+}
+.lovac2 {
+  display: block;
+  width: 60%;
+  height: 60vh;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  background-image: url(VisitBuzimSlike/Slike/Ready/ULDLovac/uld2.jpeg);
+  background-size: 100%;
+}
+.lovac3 {
+  display: inline-block;
+  width: 45%;
+  margin-left: 5%;
+  height: 60vh;
+  vertical-align: top;
+  background-image: url(VisitBuzimSlike/Slike/Ready/ULDLovac/uld3.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.lovac4 {
+  display: inline-block;
+  width: 45%;
+  height: 60vh;
+  vertical-align: top;
+  background-image: url(VisitBuzimSlike/Slike/Ready/ULDLovac/uld4.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.lovac5 {
+  display: block;
+  width: 60%;
+  height: 110vh;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  background-image: url(VisitBuzimSlike/Slike/Ready/ULDLovac/uld5.jpeg);
+  background-size: 100%;
+  background-position: top;
+}
+
+.fiskija1 {
+  display: block;
+  width: 60%;
+  height: 60vh;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  background-image: url(VisitBuzimSlike/Slike/Ready/CesmaFiskija/fiskija1.jpeg);
+  background-size: 100%;
+  background-position: center;
+}
+.fiskija2 {
+  display: inline-block;
+  width: 35%;
+  margin-left: 15%;
+  height: 70vh;
+  vertical-align: top;
+  background-image: url(VisitBuzimSlike/Slike/Ready/CesmaFiskija/fiskija2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.fiskija3 {
+  display: inline-block;
+  width: 35%;
+  height: 70vh;
+  vertical-align: top;
+  background-image: url(VisitBuzimSlike/Slike/Ready/CesmaFiskija/fiskija3.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.fiskija4 {
+  display: block;
+  width: 60%;
+  height: 110vh;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  background-image: url(VisitBuzimSlike/Slike/Ready/CesmaFiskija/fiskija4.jpeg);
+  background-size: 100%;
+  background-position: top;
+}
+
+.turbe1 {
+  display: block;
+  width: 60%;
+  height: 60vh;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  background-image: url(VisitBuzimSlike/Slike/Ready/Turbe/turbe4.jpeg);
+  background-size: 100%;
+}
+.turbe2 {
+  display: block;
+  width: 60%;
+  height: 60vh;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  background-image: url(VisitBuzimSlike/Slike/Ready/Turbe/turbe5.jpeg);
+  background-size: 100%;
+  background-position: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(8, 146, 3);
+    position: absolute;
+    top: 70px;
+    left: 0;
+    padding: 0;
+}
+.navbar a {
+    margin: 10px 0;
+    text-align: center;
+    border-top: 1px solid #444;
+}
+
+.menu-icon {
+    display: block;
+}
+
+#menu-toggle:checked + .menu-icon + .navbar {
+    display: flex;
+}
+
+.grb {
+    margin-right: 0;
+}
+
+.header {
+    padding: 10px 20px;
+}
+.logo {
+    position: static;
+    transform: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .staradzamija1, .staradzamija5, .staradzamija6,
+  .starigrad1, .starigrad4, .starigrad5, .starigrad6 {
+    width: 85%;
+    margin-left: 7.5%;
+    height: 20vh;
+  }
+  .staradzamija2, .staradzamija3, .staradzamija4 {
+    width: 30%;
+    height: 35vh;
+  }
+  .starigrad2, .starigrad3 {
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    height: 20vh;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px to 768px) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px to 992px) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  
+  
+}
+
+/* Large devices (laptops/desktops, 992px to 1200px) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  
+}
